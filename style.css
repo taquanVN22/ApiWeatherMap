@@ -217,10 +217,16 @@ header i{
 
 .myMap {
     display: none;
+    position:relative;
+    width:600px;
+    height:400px;
   }
   
   .myMap.active {
     display: block;
+    position:relative;
+    width:600px;
+    height:400px;
   }
   @media (max-width: 768px) {
     body{
